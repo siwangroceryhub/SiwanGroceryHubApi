@@ -1,9 +1,9 @@
-const mysql = require("mysql");
+const mysql = require("mysql2");
 const connection = mysql.createConnection({
     host     : 'localhost',
     user     : 'vikash',
     password : 'vikash',
-    database : 'siwan_grocery_hub'
+    database : 'siwan_grocery_hub_api'
     // host     : 'localhost',
     // user     : 'root',
     // password : '',
